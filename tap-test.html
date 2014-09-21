@@ -1,0 +1,26 @@
+<head>
+  <title>tap-test</title>
+</head>
+
+<body>
+  <h1>{{_ 'welcome'}}</h1>
+
+  {{> connection}}
+
+  {{> status}}
+
+  <hr />
+
+  {{> language}}
+</body>
+
+<template name="connection">
+<button type="button" class="btn btn-default {{hidden}}" data-disconnect>{{_ 'disconnect'}}</button>
+</template>
+
+<template name="language">
+  <div class="btn-group">
+    <button type="button" class="btn btn-default" data-lang="en">{{_ 'english'}}</button>
+    <button type="button" class="btn btn-default" data-lang="es">{{_ 'spanish'}}</button>
+  </div>
+</template>
