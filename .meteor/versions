@@ -46,7 +46,7 @@ session@1.0.1
 spacebars-compiler@1.0.2
 spacebars@1.0.1
 tap:http-methods@0.0.23
-tap:i18n@1.0.3
+tap:i18n@1.0.4
 templating@1.0.6
 tracker@1.0.2
 ui@1.0.2
